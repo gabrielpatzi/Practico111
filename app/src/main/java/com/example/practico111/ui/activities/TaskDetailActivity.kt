@@ -11,10 +11,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.Person
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.practico1.R
-import com.example.practico1.databinding.ActivityTaskDetailBinding
-import com.example.practico1.models.Task
-import com.example.practico1.repositories.TaskRepository
+import com.example.practico111.R
+import com.example.practico111.databinding.ActivityTaskDetailBinding
+import com.example.practico111.models.Task
+import com.example.practico111.repositories.TaskRepository
 
 class TaskDetailActivity : AppCompatActivity() {
     private var task:Task?=null

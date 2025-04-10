@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.widget.Button
 import android.widget.LinearLayout
 import androidx.core.content.withStyledAttributes
-import com.example.practico1.databinding.ButtonSelectedLayoutBinding
+import com.example.practico111.databinding.ButtonSelectedLayoutBinding
 
 class ColorPicker(context: Context?, attrs: AttributeSet?) : LinearLayout(context,attrs) {
     private val binding: ButtonSelectedLayoutBinding
@@ -38,9 +38,9 @@ class ColorPicker(context: Context?, attrs: AttributeSet?) : LinearLayout(contex
         }
         context.withStyledAttributes(
             attrs,
-            com.example.practico1.R.styleable.ColorPicker
+            com.example.practico111.R.styleable.ColorPicker
         ) {
-            value = getInt(com.example.practico1.R.styleable.ColorPicker_initialNumber, 1)
+            value = getInt(com.example.practico111.R.styleable.ColorPicker_initialNumber, 1)
             reloadScreen()
         }
     }

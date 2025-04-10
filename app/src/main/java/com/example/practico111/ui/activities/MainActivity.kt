@@ -8,9 +8,9 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.practico1.R
-import com.example.practico1.databinding.ActivityMainBinding
-import com.example.practico1.ui.adapters.TaskAdapter
+import com.example.practico111.R
+import com.example.practico111.databinding.ActivityMainBinding
+import com.example.practico111.ui.adapters.TaskAdapter
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

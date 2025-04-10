@@ -3,7 +3,7 @@ package com.example.practico111.ui.adapters
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.practico1.databinding.TaskListItemBinding
+import com.example.practico111.databinding.TaskListItemBinding
 
 class TaskAdapter(
     var tasks: ArrayList<String>,

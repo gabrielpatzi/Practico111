@@ -4,8 +4,8 @@ import android.graphics.Paint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.practico1.databinding.TaskListItemBinding
-import com.example.practico1.models.Task
+import com.example.practico111.databinding.TaskListItemBinding
+import com.example.practico111.models.Task
 
 class TaskListAdapter(
     var task: ArrayList<Task>
